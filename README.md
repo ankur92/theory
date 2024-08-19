@@ -15,8 +15,8 @@ To do this, ensure that your system has `python3` and `inkscape`.
 Then, while in the directory continaing the document you want to build, run `/bin/make-figures`.
 It may be convenient to add this repository's `/bin/` directory to your `PATH`.
 
-# Mac users: 
-Some of the packages may not be part of the 'mactex-basic' LaTex installation. I would suggest installing all the packages listed in '/Tex/packages.tex' using 'sudo tlmgr install {package name}'
+### Mac users 
+Some of the packages may not be part of the `mactex-basic` LaTex installation. I would suggest installing all the packages listed in `/Tex/packages.tex` using `sudo tlmgr install {package name}`
 
 ## Style guide
 
