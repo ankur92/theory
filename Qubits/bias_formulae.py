@@ -19,7 +19,7 @@ FIFTY_OHM = 50 * U.Ohm
 
 
 def dBm_to_power(value_dBm):
-    return 1*U.mW * 10**(value_dB/10.0)
+    return 1*U.mW * 10**(value_dBm/10.0)
 
 
 def I_c_to_L(I_c):

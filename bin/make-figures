@@ -10,7 +10,15 @@ def main():
     for file in svg_files:
         print(file)
         os.system(f"inkscape --export-filename={file.split('.')[0]}.pdf {file}")
+    # os.system(f"/Applications/Inkscape.app/Contents/MacOS/inkscape --export-filename={file.split('.')[0]}.pdf {file}")
 
 
 if __name__ == "__main__":
     main()
+
+
+# files = os.listdir()
+# svg_files = [f for f in files if f.endswith('svg')]
+# for file in svg_files:
+#     print(file)
+#     os.system(f"/Applications/Inkscape.app/Contents/MacOS/inkscape --export-filename={file.split('.')[0]}.pdf {file}")
